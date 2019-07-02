@@ -17,6 +17,7 @@ How do you get the username and account balance of the 3 users with the highest 
 How do you get the username and account balance of the 3 users with the lowest balances, sorted lowest to highest balance?
 How do you get all users with account balances that are more than $100?
 How do you add a new account?
+INSERT INTO accounts (username, city, transactions_completed, transactions_attempted, account_balance) VALUES ('danielle', 'minneapolis', 3, 13, 2000.00);
 The bank is losing money in Miami and Phoenix and needs to unload low transaction customers: How do you delete users that reside in miami OR phoenix and have completed fewer than 5 transactions.
 
 
